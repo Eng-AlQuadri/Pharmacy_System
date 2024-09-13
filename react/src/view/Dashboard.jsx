@@ -31,7 +31,7 @@ export default function Dashboard() {
     const onCardClick = (card) => {
         switch (card) {
             case 2:
-                setSelectedIndex(localStorage.setItem("PHARMACY_LIST"), card);
+                setSelectedIndex(card);
                 navigate("/patients");
                 break;
             case 3:
